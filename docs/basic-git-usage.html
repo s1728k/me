@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic Git Usage</title>
+	<link rel=stylesheet href="styles/grid.css">
+	<link rel=stylesheet href="styles/blog-theme1.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-2"></div>
+			<div class="col-8 heading">
+				<h1>Basic Git Usage</h1>
+			</div>
+			<div class="col-2"></div>
+		</div>
+		<div class="row">
+			<div class="col-2"></div>
+			<div class="col-8 content">
+				<h3>Step 1: Install Git</h3>
+
+				<button type="button"><a href="http://msysgit.github.io/">Install For Windows</a></button>
+				<button type="button"><a href="http://git-scm.com/book/en/Getting-Started-Installing-Git">Install For Linux</a></button>
+				<button type="button"><a href="http://git-scm.com/download/mac">Install For Mac OS</a></button>
+
+
+
+				<h3>Step 2: Create github account</h3>
+				<p>Visit the <a href="https://github.com/join?source=header-home">github</a> create page and create new account</p>
+
+				<h3>Step 3: Create new repository</h3>
+				<p>Press <i>Start Projcet</i> button to add new repository. fill the name of the repository(project), description. Select the public option and check the <i>Initialize this repository with a README</i>.
+				and press <i>Create repository button.</i></p>
+
+				<h3>Step 4: Clone the repository in your local folder</h3>
+				<p>Visit the front page of your respository in github. press the <i>Clone or download</i> button and copy the url. Visit local folder in the terminal (command prompt in case of windows) where you want to clone the project and type </p>
+				<div class="code">
+					<p>
+						<span class="rw">git</span> 
+						<span class="pr"> clone</span>
+						<span> url </span>
+					</p>
+				</div>
+				<p>Now that you have clone the repository in you local machine. Enter the folder name of project cloned. You can add project skeliton folders and files to it and make changes as required.</p>
+
+				<h3>Step 5: Pushing your code after changes made to your local repository (project)</h3>
+				<p>Enter the folder name of project cloned in the terminal and use the following code to push the changes you made to project. </p>
+				<div class="code">
+					<p>
+						<span class="rw">git</span> 
+						<span class="pr"> add </span>
+						<span> .</span>
+					</p>
+					<p>
+						<span class="rw">git</span> 
+						<span class="pr"> commit -m </span>
+						<span> "commit message stating what changes you made for refference"</span>
+					</p>
+					<p>
+						<span class="rw">git</span> 
+						<span class="pr"> push </span>
+					</p>
+				</div>
+
+				<h3>Step 6: Pull the code from your github repository to accept changes made by your co-worker</h3>
+				<p>Enter the folder name of project cloned in the terminal and use the following code to pull the changes made by your co-worker to project. </p>
+				<div class="code">
+					<p>
+						<span class="rw">git</span> 
+						<span class="pr"> add </span>
+						<span> .</span>
+					</p>
+					<p>
+						<span class="rw">git</span> 
+						<span class="pr"> commit -m </span>
+						<span> "commit message stating what changes you made for refference"</span>
+					</p>
+					<p>
+						<span class="rw">git</span> 
+						<span class="pr"> pull </span>
+					</p>
+				</div>
+
+				<h3>Step 7: Merge Conflicts</h3>
+				<p>You may some notice merge conflicts if the same file is altered by your co-worker. you need to resolve manualy or using ide featurs. </p>
+
+			</div>
+			<div class="col-2"></div>
+		</div>
+	</div>
+</body>
+</html>

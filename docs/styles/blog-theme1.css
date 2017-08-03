@@ -1,0 +1,41 @@
+html{
+	font-family: Georgia , sans-serif;
+	  -webkit-text-size-adjust: 100%;
+	      -ms-text-size-adjust: 100%;
+}
+.heading{
+	margin-top: 10px; 
+	background: lavender;
+	color: darkgrey;
+	padding: 10px;
+	box-shadow: 10px 10px 5px #888888;
+	z-index: 10;
+}
+.content{
+	padding: 15px;
+	background: lavenderblush;
+	color: black;
+}
+.code{
+	background: black;
+	color: white;
+	padding: 10px;
+	font-family: monospace, sans-serif;
+	font-size: 15px;
+}
+.code > p > span.rw{
+	color: orange;
+}
+.code > p > span.pr{
+	color: lightblue;
+}
+.code > p > span.un{
+	color: grey;
+}
+button{
+	background: linear-gradient(#5546,#4650,#4646,0.8 );
+}
+button > a{
+	text-decoration: none;
+	color: black
+}

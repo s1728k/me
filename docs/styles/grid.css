@@ -1,3 +1,13 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -52,13 +62,25 @@
 [class*="col-"] {
     float: left;
     padding: 15px;
-    border: 1px solid red;
+    position: relative;
 }
 
 .row::after {
     content: "";
     clear: both;
     display: table;
+}
+
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
