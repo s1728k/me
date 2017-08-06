@@ -4,12 +4,17 @@ html{
 	      -ms-text-size-adjust: 100%;
 }
 .heading{
-	margin-top: 10px; 
+	border-top: 10px solid white; 
 	background: lavender;
 	color: darkgrey;
 	padding: 10px;
 	box-shadow: 10px 10px 5px #888888;
 	z-index: 10;
+	position: fixed;
+	left: 16.66%;
+}
+.spacer_heading{
+	height: 1vh;
 }
 .content{
 	padding: 15px;
